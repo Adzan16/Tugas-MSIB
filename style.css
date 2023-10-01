@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #495057;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-bottom: 200px;
+}
+
+header {
+  background-color: #0077b5;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.info-box {
+  background-color: #fff;
+  width: 300px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.info-box:hover {
+  transform: scale(1.05);
+}
+
+h1, h2, h3, p, ul, li {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li:before {
+  content: "• ";
+  color: #0077b5;
+}
+
+.profile-picture {
+  width: 100%; 
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #0077b5;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-height: 150px; 
+  overflow: hidden;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-box h3 {
+  margin-bottom: 10px;
+}
+
+.contact-box p {
+  margin: 5px 0;
+}
